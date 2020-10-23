@@ -4,10 +4,10 @@
 
 int main(int argc, char *argv[]) {
     setlocale(LC_ALL, "Portuguese");
-    int x, y;
+    int z, y;
 
-    printf("Digite o valor de x: ");
-    scanf("%d", &x);
+    printf("Digite o valor de z: ");
+    scanf("%d", &z);
 
     printf("Digite o valor de y: ");
     scanf("%d", &y);	
@@ -20,6 +20,7 @@ int main(int argc, char *argv[]) {
         printf("Parabens voce ganhou 5 pontos!");
     } else if ((x >= -10 && x <= 10) && (y >= -10 && y <= 10)) {
         printf("Parabens voce ganhou 1 pontos! \n");
+        printf("Voce é legal! \n");
     }
 
     system("pause");
