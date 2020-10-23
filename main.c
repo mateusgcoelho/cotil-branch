@@ -20,6 +20,7 @@ int main(int argc, char *argv[]) {
         printf("Parabens voce ganhou 5 pontos!");
     } else if ((x >= -10 && x <= 10) && (y >= -10 && y <= 10)) {
         printf("Parabens voce ganhou 1 pontos! \n");
+        printf("Voce é legal! \n");
     }
 
     system("pause");
